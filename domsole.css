@@ -1,0 +1,91 @@
+#log {
+    overflow-wrap: break-word;
+    overflow-y: auto;
+    color: white;
+    background-color: black;
+    margin: 2px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+samp {
+    color: crimson;
+}
+
+#error {
+    color: red;
+}
+
+kbd {
+    color: floralwhite;
+    font-style: italic;
+}
+
+#fileLine {
+    font-size: smaller;
+    opacity: 0.7;
+    font-style: normal;
+}
+
+#nan {
+    color: red;
+}
+
+/*code*/
+#object {
+    color: skyblue
+}
+#function {
+    color: darkcyan;
+    font-style: italic;
+}
+#array {
+    color: darksalmon
+}
+#boolTrue {
+    color: greenyellow;
+}
+#boolFalse {
+    color: crimson;
+}
+
+
+footer {
+    margin: 0; 
+    padding: 0;
+    position: sticky;
+    display: inline-block;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+}
+
+textarea {
+    position: sticky; 
+    float: left;
+    width: 77.5%; 
+    background-color: black; 
+    color: white;
+    border: 2px solid gray;
+}
+
+button {
+    background-color: black; 
+    color: white;
+    position: sticky;
+    float: right; 
+    width: 20%; 
+    height: 40px;
+}
+
+
+
+
+
+
