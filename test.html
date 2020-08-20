@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="lib/domsole.css"/>
+        
+    </head>
+    <body>
+       
+        <script src="lib/domsole.js"></script>
+        <script>
+            
+            var arr = ["mango", "papaya", "pineapple", "jackfruit", "banana", "apple", "orange"];
+            var b = {
+                c: 10,
+                d: 100,
+                e: "hello world",
+                f: function(u) {
+                      console.log("hello");
+                   }, 
+                g: 5028,
+                h: [1,5,79,918]
+            };
+            b.i = 389;
+            
+            
+            domsole.log("hi");
+            domsole.log(b);
+            domsole.log(b.f);
+     
+            var y = {
+firstName: "John",
+lastName: "Scott",
+friends: [
+     {
+       name: "Charlie",
+       profession: "Police"
+     }, 
+     {
+       name: "Peter",
+       profession: "Scammer"
+     }
+    ]
+};
+            y.age = 34;
+            var c;
+            domsole.log(y);
+            
+            for(var i = 0; i <= 10; i++) {
+              var h = [];
+              h.push(i);
+              domsole.log(h)
+            }
+
+            domsole.log(b);
+
+            domsole.log(b);
+            domsole.log(arr);
+            var r = true;
+            var m = false;
+
+            arr.push("melon");
+            domsole.log(arr);
+            domsole.log(r);
+            domsole.log(173+738*(2));
+            domsole.log(m);
+
+        </script>
+        
+    </body>
+</html>
