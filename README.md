@@ -21,6 +21,14 @@ Then add the script file inside the body but BEFORE any other tags:
 </body>
 ```
 
+Or you can add the cdn links:
+
+```<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AbrarShahriar/domsole.js/domsole.css"/>```
+
+Remember to add the JavaScript file inside the body but BEFORE any other tags!
+
+```https://cdn.jsdelivr.net/gh/AbrarShahriar/domsole.js/domsole.js```
+
 That's all you need!!
 
 ### Usage
